@@ -40,3 +40,5 @@ if (randomNumber1 > randomNumber2) {
 } else {
     heading.innerHTML = "Draw";
 }
+
+document.getElementById("cdate").innerHTML = (new Date().getFullYear());
